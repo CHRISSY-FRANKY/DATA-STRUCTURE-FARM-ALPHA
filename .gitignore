@@ -1,0 +1,74 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+*.Cache
+*.ilk
+*.meta
+*.obj
+*.pdb
+*.userosscache
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+
+# Visual Studio
+*.vs/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Blazor WebAssembly specific
+wwwroot/lib/
+
+# Configuration Files - if you have sensitive information
+appsettings*.json
+
+# Node.js packages
+node_modules/
+
+# Browser Link
+BrowserLink
+
+# IDE and tool specific
+_ReSharper*/ # ReSharper files
+*.DotSettings.user
+
+# Test Results
+TestResults/
+
+# Logs
+logs/
+
+# Local development server
+server.pid
+
+# Others
+*.dbmdl
+Generated_Code
+
+# Blazor WASM publish output
+dist/ # if you're using a different publish directory name
+
+# Project specific files - adjust as necessary
+# For example, if you generate documentation or images:
+docs/
+images/
